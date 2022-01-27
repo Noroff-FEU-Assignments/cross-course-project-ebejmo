@@ -6,6 +6,10 @@ darkgrey: #565956
 lightgrey: #F2F2F2 */
 
 /* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans Pro", Verdana, Geneva, Tahoma, sans-serif;
   min-height: 80vh;
@@ -32,8 +36,7 @@ h3,
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
+  justify-content: space-evenly;
 }
 
 nav li {
@@ -41,8 +44,20 @@ nav li {
   padding-right: 50px;
 }
 
+header a:hover {
+  font-weight: 600;
+}
+
 header i {
   padding: 10px;
+}
+
+.shopping-info {
+  font-size: 1.2em;
+}
+
+i.far.fa-heart {
+  color: #455a69;
 }
 
 /* Links */
@@ -50,10 +65,6 @@ a {
   text-decoration: none;
   color: #13131b;
   text-transform: uppercase;
-}
-
-header .logo {
-  padding-left: 100px;
 }
 
 .cta {
@@ -70,11 +81,23 @@ header .logo {
   margin-right: 25px;
 }
 
+.cta:hover {
+  background-color: #2f4352;
+}
+
 .cta-about {
   border: 2px solid #455a69;
   color: #455a69;
   background-color: #fff;
   border-color: #455a69;
+  margin-top: 20px;
+}
+
+.cta-about:hover {
+  font-weight: 600;
+  color: #2f4352;
+  background-color: #fff;
+  border-color: #2f4352;
 }
 
 /* Homepage, hero */
@@ -94,6 +117,10 @@ header .logo {
   left: 100px;
 }
 
+.hero-text {
+  margin-bottom: 35px;
+}
+
 .second-line {
   line-height: 0;
 }
@@ -109,20 +136,28 @@ header .logo {
   display: flex;
 }
 
-.about > * {
-  flex: 1;
+.about-content-img {
+  max-width: 600px;
 }
+/* .about > * {
+  flex: 1;
+} */
 
 .about img {
-  max-width: 600px;
+  width: 100%;
 }
 
 .about-content {
-  margin-left: 25px;
+  margin-top: 80px;
+  margin-left: 50px;
+  text-align: center;
 }
 
-.about-content h2 {
-  text-align: center;
+.about-content-text {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 /* Promotions */
@@ -134,7 +169,7 @@ header .logo {
 .promotions-content {
   display: flex;
   justify-content: space-between;
-  flex: 1;
+  text-align: center;
 }
 
 .promotions-item {
@@ -162,10 +197,6 @@ header .logo {
 
 .details a {
   font-weight: 600;
-}
-
-.top {
-  text-decoration: underline;
 }
 
 /* Footer */
@@ -211,10 +242,15 @@ footer a {
   display: flex;
   justify-content: space-between;
   margin: 50px auto;
+  align-items: center;
 }
 
-.footer-bottom i {
-  margin-top: 20px;
+footer i {
+  padding-right: 15px;
+}
+
+.footer-bottom-media {
+  font-size: 1.6em;
 }
 
 .footer-bottom-copy {
