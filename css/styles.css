@@ -53,7 +53,7 @@ header {
 
 nav {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 42.3px;
   background: white;
   left: 0px;
@@ -142,10 +142,11 @@ a {
 
 /* Homepage, hero */
 .hero {
-  background-image: url(/images/homepage/header-home-small-screen.jpg);
+  background-image: url(/images/homepage/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: center;
+  background-position-x: center;
+  background-position-y: top;
   min-height: 60vh;
 }
 
@@ -326,11 +327,6 @@ footer i {
     display: none;
   }
   .hero {
-    background-image: url(../images/homepage/header-home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
     min-height: 80vh;
   }
   .hero-content {
@@ -375,6 +371,10 @@ footer i {
 }
 
 @media (min-width: 1000px) {
+  .hero {
+    background-image: url(/images/homepage/hero-big.jpg);
+    min-height: 100vh;
+  }
   .hero-content {
     position: absolute;
     text-align: left;
