@@ -225,8 +225,7 @@ a {
 }
 
 .promotions-item img {
-  min-height: 500px;
-  max-width: 393px;
+  max-width: 100%;
 }
 
 .promotions-cta {
@@ -237,7 +236,7 @@ a {
   max-width: 1000px;
   margin: 70px auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .details a {
