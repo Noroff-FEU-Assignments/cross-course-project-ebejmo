@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+  color: var(--color-text-headings);
+  text-transform: uppercase;
+}
+
+.cta {
+  display: inline-block;
+  color: var(--color-background-white);
+  background-color: var(--color-button);
+  padding: 9px 25px;
+  border-radius: 5px;
+  min-width: 65.8px;
+  text-align: center;
+}
+
+.cta-men {
+  margin-right: 25px;
+}
+
+.cta:hover {
+  background-color: var(--color-button-hover);
+}
+
+.cta-js {
+  border: none;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+.cta-about {
+  border: 2px solid var(--color-button);
+  color: var(--color-button);
+  background-color: var(--color-background-white);
+  margin-top: 20px;
+}
+
+.cta-about:hover {
+  font-weight: 600;
+  color: var(--color-button-hover);
+  background-color: var(--color-background-white);
+  border-color: var(--color-button-hover);
+}
