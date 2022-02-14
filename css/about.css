@@ -1,0 +1,52 @@
+.company-about {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+  margin: auto;
+}
+
+.company-about img {
+  width: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  /* margin-bottom: 50px; media */
+  text-align: center;
+  justify-content: space-between;
+}
+
+.content-wrapper-top {
+  margin-top: 0px;
+}
+
+.content-text {
+  /* max-width: 300px; media */
+  max-width: 600px;
+  /* padding: 0 10px; media */
+}
+
+.intro-text {
+  font-size: 1.1em;
+}
+
+.content-wrapper p {
+  text-align: left;
+}
+
+.img-holder {
+  max-width: 600px;
+}
+
+.higlighted {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.signature {
+  font-weight: 600;
+  text-transform: uppercase;
+}

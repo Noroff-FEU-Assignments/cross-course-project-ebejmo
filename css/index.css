@@ -1,3 +1,7 @@
+main img {
+  width: 100%;
+}
+
 .hero {
   background: url(/images/homepage/hero.jpg) center top no-repeat;
   background-size: cover;
@@ -37,10 +41,14 @@
 .about-content-img {
   max-width: 600px;
   margin: 0 auto;
+  padding-left: 5px;
+  flex: 2;
 }
 
 .about-content {
   text-align: center;
+  padding-right: 5px;
+  flex: 1;
 }
 
 .about-content-text {
@@ -66,8 +74,8 @@
   padding: 0 5px;
 }
 
-.promotions-item {
-  /* margin: 30px; */
+.promotions-item img {
+  max-width: 400px;
 }
 
 .promotions-item-title {
@@ -88,62 +96,4 @@
 .details a {
   font-weight: 600;
   padding: 0 5px;
-}
-
-/* Footer */
-footer {
-  background-color: var(--color-footer);
-  padding: 0 5px;
-}
-
-footer h3,
-a {
-  font-size: 0.9em;
-}
-
-footer h3 {
-  font-weight: 600;
-}
-
-footer a {
-  margin-top: 5px;
-  text-transform: none;
-}
-
-.footer-content {
-  max-width: 1000px;
-  display: flex;
-  margin: 25px auto;
-  flex-direction: column;
-}
-
-footer a {
-  display: block;
-}
-
-.form__input {
-  min-height: 30px;
-  border-radius: 5px;
-  border: 1px solid #565956;
-  display: block;
-  margin-top: 5px;
-}
-
-.footer-bottom {
-  max-width: 1000px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-footer i {
-  padding-right: 15px;
-}
-
-.footer-bottom-media {
-  font-size: 1.6em;
-}
-
-.footer-bottom-social {
-  margin-bottom: 20px;
 }

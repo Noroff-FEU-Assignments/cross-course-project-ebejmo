@@ -61,6 +61,16 @@
   .footer-bottom-copy {
     display: block;
   }
+  .content-wrapper {
+    flex-direction: row;
+  }
+  .content-text {
+    max-width: 300px;
+    padding: 0 10px;
+  }
+  .content-wrapper-second {
+    flex-direction: row-reverse;
+  }
 }
 
 @media (min-width: 1000px) {
