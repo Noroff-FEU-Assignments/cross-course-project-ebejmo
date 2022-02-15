@@ -1,0 +1,60 @@
+.container {
+  max-width: 400px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.container-contact {
+  margin-bottom: 40px;
+}
+
+.container-contact h1 {
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 1.3rem;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-chat {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  text-decoration: underline;
+}
+
+.contact-chat i {
+  font-size: 5rem;
+}
+
+.container-contact p {
+  max-width: 400px;
+  padding: 0 10px;
+  margin-top: -20px;
+}
+
+.customer-questions {
+  padding: 0 10px;
+  margin-bottom: 100px;
+}
+
+.questions-row {
+  border-bottom: 1px solid #000;
+}
+
+.row-details {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.row-details i {
+  font-size: 3em;
+}
