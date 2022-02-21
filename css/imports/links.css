@@ -18,6 +18,14 @@ a {
   margin-right: 25px;
 }
 
+.cta-long {
+  color: white;
+  text-decoration: none;
+  max-width: 350px;
+  margin: 20px auto;
+  display: block;
+}
+
 .cta:hover {
   background-color: var(--color-button-hover);
 }

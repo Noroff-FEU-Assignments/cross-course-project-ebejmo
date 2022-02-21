@@ -31,30 +31,6 @@ p {
   margin: 10px 0 10px 0;
 }
 
-.color-container {
-  display: flex;
-  max-width: 100px;
-  justify-content: space-between;
-}
-
-.jacket-color {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-}
-
-.jacket-color_black {
-  background-color: black;
-}
-
-.jacket-color_red {
-  background-color: red;
-}
-
-.jacket-color_blue {
-  background-color: blue;
-}
-
 .jackets-showing {
   text-align: center;
 }

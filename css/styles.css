@@ -101,11 +101,65 @@ i.far.fa-heart {
   color: var(--color-button);
 }
 
-/* img {
-  width: 100%;
-} */
+.color-container {
+  display: flex;
+  gap: 10px;
+}
 
-/* Footer */
+.jacket-color {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.jacket-color_black {
+  background-color: black;
+}
+
+.jacket-color_red {
+  background-color: red;
+}
+
+.jacket-color_blue {
+  background-color: blue;
+}
+
+.size-btn {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: var(--color-button);
+  border-color: var(--color-button);
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.size-btn:hover {
+  background-color: var(--color-button);
+  color: #fff;
+}
+
+.size-btn-selected {
+  background-color: var(--color-button);
+  color: #fff;
+}
+
+.questions-row {
+  border-bottom: 1px solid #000;
+}
+
+.row-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-details i {
+  font-size: 2em;
+}
+
 footer {
   background-color: var(--color-footer);
   padding: 0 5px;
@@ -165,6 +219,7 @@ footer i {
 
 .petite {
   min-height: 150px;
+  margin-top: 50px;
 }
 
 .footer-social-media {
