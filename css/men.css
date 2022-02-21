@@ -1,0 +1,77 @@
+.men-jackets {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+  display: flex;
+}
+
+.jacket-info {
+  font-size: 0.8em;
+  padding-right: 10px;
+  max-width: 200px;
+}
+
+.jacket-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 40px auto;
+}
+
+.jackets img {
+  width: 100%;
+}
+
+.jackets {
+  margin-bottom: 30px;
+}
+
+.jackets h3,
+p {
+  margin: 10px 0 10px 0;
+}
+
+.color-container {
+  display: flex;
+  max-width: 100px;
+  justify-content: space-between;
+}
+
+.jacket-color {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.jacket-color_black {
+  background-color: black;
+}
+
+.jacket-color_red {
+  background-color: red;
+}
+
+.jacket-color_blue {
+  background-color: blue;
+}
+
+.jackets-showing {
+  text-align: center;
+}
+
+.jackets-showing {
+  text-align: left;
+}
+
+.jackets-showing p {
+  text-transform: uppercase;
+}
+
+.jackets-showing span {
+  font-weight: 600;
+}
+
+.jackets-showing button {
+  text-transform: uppercase;
+  margin-top: 10px;
+}

@@ -1,3 +1,7 @@
+main {
+  margin-top: 30px;
+}
+
 .company-about {
   max-width: 1000px;
   display: flex;
@@ -14,7 +18,6 @@
   display: flex;
   flex-direction: column;
   margin: 20px auto;
-  /* margin-bottom: 50px; media */
   text-align: center;
   justify-content: space-between;
 }
@@ -24,9 +27,8 @@
 }
 
 .content-text {
-  /* max-width: 300px; media */
   max-width: 600px;
-  /* padding: 0 10px; media */
+  padding: 0 10px;
 }
 
 .intro-text {

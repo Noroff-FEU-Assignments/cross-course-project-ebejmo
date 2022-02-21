@@ -45,6 +45,7 @@ header {
   display: flex;
   align-items: center;
   height: 52.5px;
+  /* border-bottom: 1px solid var(--color-footer); */
 }
 
 nav {
@@ -160,4 +161,24 @@ footer i {
 
 .footer-bottom-social {
   margin-bottom: 20px;
+}
+
+.petite {
+  min-height: 150px;
+}
+
+.footer-social-media {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.petite h3 {
+  text-align: center;
+}
+
+.footer-social-media i {
+  padding: 0;
+  font-size: 2rem;
 }
