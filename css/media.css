@@ -71,6 +71,36 @@
   .content-wrapper-second {
     flex-direction: row-reverse;
   }
+  .men-jackets {
+    flex-direction: row;
+  }
+  .jacket-info {
+    max-width: 200px;
+  }
+  .jacket-info-type {
+    display: block;
+  }
+  .jacket-info-filter {
+    display: block;
+  }
+  .jacket-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .jacket-specific {
+    flex-direction: row;
+    padding: 0 10px;
+  }
+  .jacket-details {
+    margin-left: 40px;
+  }
+  .jacket-thumbnails {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .jackets-showing {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1000px) {

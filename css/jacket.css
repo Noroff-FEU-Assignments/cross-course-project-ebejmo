@@ -2,6 +2,7 @@
   max-width: 1000px;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .jacket-specific img {
