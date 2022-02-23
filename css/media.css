@@ -101,6 +101,10 @@
   .jackets-showing {
     text-align: left;
   }
+  .minimal {
+    margin: auto;
+    padding-right: 100px;
+  }
 }
 
 @media (min-width: 1000px) {
