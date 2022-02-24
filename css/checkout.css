@@ -121,16 +121,6 @@ input[type="text"] {
   width: 100px;
 }
 
-.checkout-review-img {
-  width: 150px;
-  padding-top: 20px;
-  margin-left: 40px;
-}
-
-.checkout-review-img img {
-  width: 100%;
-}
-
 .checkout-order-summary {
   display: flex;
 }

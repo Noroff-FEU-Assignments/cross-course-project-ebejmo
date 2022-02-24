@@ -184,6 +184,16 @@ i.far.fa-heart {
   color: #757575;
 }
 
+.checkout-review-img {
+  width: 150px;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+
+.checkout-review-img img {
+  width: 100%;
+}
+
 footer {
   background-color: var(--color-footer);
   padding: 0 5px;
