@@ -23,6 +23,14 @@ h1 {
   text-align: center;
 }
 
+p {
+  text-transform: uppercase;
+}
+
+label {
+  text-transform: uppercase;
+}
+
 .progress-bar {
   display: flex;
   border-bottom: 1px solid var(--color-footer);
@@ -38,12 +46,13 @@ h1 {
 }
 
 .checkout-details {
+  max-width: 305px;
   margin: 25px 0;
 }
 
 .form__input {
   display: block;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
 }
 
 input[type="radio"] {
@@ -56,6 +65,11 @@ input[type="text"] {
 
 #country {
   margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid var(--color-text-headings);
+  height: 30px;
+  width: 150px;
 }
 
 .checkout-price {
@@ -89,4 +103,45 @@ input[type="text"] {
 
 .delivery-time {
   margin: 0;
+}
+
+/* review & pay */
+
+#cardtype {
+  margin: 10px 0 20px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid var(--color-text-headings);
+  height: 30px;
+  width: 150px;
+}
+
+#cvc,
+#expiry {
+  width: 100px;
+}
+
+.checkout-review-img {
+  width: 150px;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+
+.checkout-review-img img {
+  width: 100%;
+}
+
+.checkout-order-summary {
+  display: flex;
+}
+
+.checkout-order-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 1.1em;
 }

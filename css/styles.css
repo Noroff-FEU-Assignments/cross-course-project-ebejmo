@@ -160,6 +160,30 @@ i.far.fa-heart {
   font-size: 2em;
 }
 
+.fa-angle-left {
+  font-size: 2em;
+}
+
+.minimal {
+  padding-left: 20px;
+}
+
+.checkout-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-current {
+  font-weight: 600;
+}
+
+.checkout-not-current {
+  color: #757575;
+}
+
 footer {
   background-color: var(--color-footer);
   padding: 0 5px;

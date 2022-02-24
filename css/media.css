@@ -105,6 +105,13 @@
     margin: auto;
     padding-right: 100px;
   }
+  .checkout-order-summary {
+    flex-direction: column;
+  }
+  .checkout-review-img {
+    width: 250px;
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 1000px) {

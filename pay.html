@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Review and pay for your Rainydays items." />
+    <title>Review & Pay | Rainydays</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://kit.fontawesome.com/b14d444cb1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="top">
+        <a href="checkout.html">
+            <i class="fas fa-angle-left"></i>
+        </a>
+        <div class="logo-container-header minimal">
+          <a href="index.html" class="logo">rainydays
+            <img src="/images/logo/logo.svg" alt="rainydays logo" class="svg">
+          </a>
+        </div>
+      </header>
+      <main class="checkout-container">
+        <h1>review & pay</h1>
+          <div class="progress-bar">
+            <p class="checkout-not-current">DELIVERY</p>
+            <p class="checkout-current">REVIEW & PAY</p>
+          </div>
+          <section class="checkout-order-summary">
+              <div class="checkout-review">
+                <h2>order summary</h2>
+                <p>(1 Item)</p>
+                <p>Cool Name Jacket</p>
+                <p>Door to Door Delivery</p>
+                <p class="bold">Free</p>
+                <div class="checkout-order-price">
+                    <p>Total:</p>
+                    <p class="bold"> €150.00</p>
+                </div>
+              <a href="jacket.html" class="cta cta-about">edit</a> 
+              </div>  
+              <div class="checkout-review-img">
+                <img src="/images/jackets/jacket-main_small.jpg" alt="closer look at the black rain jacket">
+              </div>
+          </section>
+          <section class="checkout-process">
+            <div class="checkout-customer">
+                <h2>payment options</h2>
+                <form action="" method="POST">
+                    <input type="radio" name="select" value="card" id="card"><label for="card">Pay with Card</label>
+                    <input type="radio" name="select" value="paypal" id="paypal"><label for="paypal">Paypal</label>
+                </form>
+            </div>
+            <div class="checkout-details">
+                <form action="" method="POST">
+                    <h2>Card details</h2>
+                    <label for="cardtype">Card Type</label>
+                    <select name="cardtype" id="cardtype">
+                        <option value="mastercard">Mastercard</option>
+                        <option value="visa">Visa</option>
+                        <option value="american express">American Express</option>
+                    </select>  
+                    <div>
+                        <label for="cardnumber">Card Number</label>
+                        <input type="text" id="cardnumber" name="cardnumber" class="form__input" required>
+                        <label for="expiry">Expiry Date</label>
+                        <input type="tel" id="expiry" name="expiry" class="form__input" required>
+                        <label for="cvc">CVC</label>
+                        <input type="tel" id="cvc" name="cvc" class="form__input" required>
+                        <label for="card-holder-name">Card Holder Name</label>
+                        <input type="text" id="card-holder-name" name="card-holder-name" class="form__input" required>
+                    </div>
+                    <input type="radio" name="select" value="terms" id="terms"><label for="terms">I agree to the Terms and Conditions of Rainydays</label>  
+                    <a href="pay.html" class="cta cta-long">pay €150.00</a>                                  
+                </form>                      
+          </section>
+      </main>
+</body>
+</html>
