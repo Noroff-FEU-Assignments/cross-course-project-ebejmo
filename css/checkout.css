@@ -106,6 +106,9 @@ input[type="text"] {
 }
 
 /* review & pay */
+.checkout-process {
+  margin-top: 40px;
+}
 
 #cardtype {
   margin: 10px 0 20px 0;
