@@ -1,9 +1,5 @@
-main img {
-  width: 100%;
-}
-
 .hero {
-  background: url(/images/homepage/hero.jpg) center top no-repeat;
+  background: url(/images/homepage/hero-max1000px.jpg) center top no-repeat;
   background-size: cover;
   min-height: 60vh;
 }
@@ -35,7 +31,7 @@ main img {
   max-width: 1000px;
   display: flex;
   flex-direction: column;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .about-content-img {

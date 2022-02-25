@@ -33,25 +33,18 @@
   }
   .about {
     flex-direction: row;
-    padding: 0 5px;
   }
   .about-content {
     margin-top: 25px;
     margin-left: 20px;
   }
-  .promotions {
-    /* display: flex;
-      flex-direction: row; */
-  }
   .promotions-content {
     flex-direction: row;
   }
-
   .footer-content {
     flex-direction: row;
     justify-content: space-between;
   }
-
   .footer-bottom {
     flex-direction: row;
     justify-content: space-between;
